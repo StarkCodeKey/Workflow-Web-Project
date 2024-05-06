@@ -1,0 +1,45 @@
+/* Reset CSS */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Typography */
+html {
+    font-family: Arial, Helvetica, sans-serif sans-serif; /* Set default font family */
+    font-size: 16px; /* Set default font size */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal; /* Reset heading font weight */
+}
+
+/* Links */
+a {
+    text-decoration: none; /* Remove default underline */
+    color: inherit; /* Inherit text color */
+}
+
+/* Lists */
+ul, ol {
+    list-style: none; /* Remove default list styles */
+}
+
+/* Form elements */
+input, textarea, select, button {
+    font-family: inherit; /* Inherit font family */
+    font-size: inherit; /* Inherit font size */
+}
+
+/* Images */
+img {
+    display: block; /* Remove default image alignment */
+    max-width: 100%; /* Ensure images don't exceed container width */
+    height: auto; /* Maintain aspect ratio */
+}
